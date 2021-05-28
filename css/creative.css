@@ -190,9 +190,13 @@
 #Ad_banner .text p{
     font-size: 18px;
     color: #444;
-    margin: 20px 0;
     text-align: justify;
-    width: 89%;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 26px 110px;
+}
+#Ad_banner p span{
+    color: #E9242A;
 }
 /*Ad_banner end*/
 
