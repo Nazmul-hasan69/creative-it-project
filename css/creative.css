@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline:0;
+    box-sizing: border-box;
+ }
+ body{
+     font-family: sans-serif;
+ }
+ a{
+     text-decoration: none;
+ }
+.container{
+    width: 1140px;
+    margin:0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*header section end*/
+#header{
+    padding: 40px;
+    border-top: 5px red solid;
+}
+#header .container .logo{
+    width: 30%;
+    float: left;
+}
+#header .container .contact_info{
+    width: 50%;
+    float: right;
+    margin-top: 15px;
+}
+#header .contact_info .contact_item{
+    margin: 0 10px;
+    float: left;
+}
+#header .contact_info .contact_item .contact_icon{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: #EE2E24;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#header .contact_info .contact_item .contact_text{
+    float: left;
+    width: auto;
+    margin-left: 20px;
+    font-weight: bold;
+}
+#header .contact_info .contact_item .contact_text p{
+    padding: 5px 0px;
+    color: #444;
+}
+/*header section end*/
+
+
+.clear_fix{
+    clear: both;
+}
+
+/*navbar start*/
+#navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #F6F6F6;
+}
+#navbar ul{
+    list-style-type: none;
+}
+#navbar ul li {
+    display:inline-block;
+    color: #F9F9F9;
+    font-size: medium;
+    position: relative;
+}
+#navbar ul li a{
+    color: #444;
+    padding: 15px 19px;
+    text-transform: capitalize;
+    font-size: 19px;
+    display:block;
+    transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: linear;
+}
+#navbar ul li:hover >a{
+    color: red;
+}
+#navbar ul li ul{
+    width: 300px;
+    height: auto;
+    background: #F6F6F6;
+    position: absolute;
+    padding: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition:all linear .4s;
+    border-bottom: 1px red solid;
+    border-radius: 2px;
+    top: 0;
+    left: 0;
+}
+#navbar ul li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+    top:100%;
+    transform: scaleY(1.1);
+}
+#navbar ul li ul li{
+    display: block;
+}
+#navbar ul li ul li:hover > ul{
+    left: 100%;
+}
+#navbar ul .item .btn2{
+    background: #E9242A;
+    line-height: 15px;
+    color: #fff;
+    padding: 32px 20px;
+}
+#slider img{
+    width: 100%
+}
+/*navbar end*/
+
+/*Ad_banner start*/
+#Ad_banner{
+    margin-top: -75px;
+}
+#Ad_banner .ad_banner_item .ad_banner_item1{
+    text-align: center;
+    width: 25%;
+    height: 150px;
+    float: left;
+    background-color: #F6F6F6;
+    border-right: 1px solid rgba(68, 68, 68, .20);
+    position: relative;
+    padding-top: 20px;
+}
+#Ad_banner .ad_banner_item .ad_banner_item2{
+    text-align: center;
+    width: 25%;
+    height: 150px;
+    float: left;
+    background-color: #F6F6F6;
+    border-right:none;
+    position: relative;
+    padding-top: 20px;
+}
+#Ad_banner .ad_banner_item h3{
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 16px;
+    padding-top: 20px;
+    color: #444;
+    transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+}
+#Ad_banner .ad_banner_item:hover h3{
+    color: #E9242A;
+    padding: 1px;
+}
+#Ad_banner .text{
+    padding-bottom: 15px;
+    margin-top: 30px;
+}
+#Ad_banner .text h1{
+    font-size: 30px;
+    font-weight: 400;
+    color: #222;
+    text-align: center;
+    margin: 10px 20px;
+}
+#Ad_banner .text h1 span{
+    color: #E9242A;
+}
+#Ad_banner .text p{
+    font-size: 18px;
+    color: #444;
+    margin: 20px 0;
+    text-align: justify;
+    width: 89%;
+}
+/*Ad_banner end*/
+
+/*help bottun*/
+.help a{
+    display: inline-block;
+    background-color: #E9242A;
+    text-decoration: none;
+    color: azure;
+    border-radius: 5px 5px 0 0;
+    margin-left: 10px;
+    font-size: 15px;
+    line-height: 60px;
+    padding:0 35px 0 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+/*help bottun*/
