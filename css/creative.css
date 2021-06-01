@@ -18,7 +18,6 @@
     display: flex;
     flex-wrap: wrap;
 }
-
 /*header section end*/
 #header{
     padding: 40px;
@@ -173,33 +172,39 @@
     color: #E9242A;
     padding: 1px;
 }
-#Ad_banner .text{
+/*Ad_banner end*/
+
+/*ad banner text*/
+#ad_banner_text .text{
     padding-bottom: 15px;
     margin-top: 30px;
 }
-#Ad_banner .text h1{
+#ad_banner_text .text h1{
     font-size: 30px;
     font-weight: 400;
     color: #222;
     text-align: center;
     margin: 10px 20px;
 }
-#Ad_banner .text h1 span{
+#ad_banner_text .text h1 span{
     color: #E9242A;
 }
-#Ad_banner .text p{
+#ad_banner_text .text p{
     font-size: 18px;
     color: #444;
     text-align: justify;
     font-weight: 400;
     line-height: 1.5;
-    margin: 26px 105px;
-    width: 84%;
+    margin: 26px 0px;
+    width: 100%;
 }
-#Ad_banner p span{
+#ad_banner_text p span{
     color: #E9242A;
 }
-/*Ad_banner end*/
+/*ad banner text*/
+
+/*courses start*/
+/*courses end*/
 
 /*help bottun*/
 .help a{
